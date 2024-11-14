@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Объединение ячеек</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        thead {
+            position: sticky;
+            top: 0;
+        }
+
+        tbody td:first-child {
+            position: sticky;
+            left: 0;
+            background-color: rgb(199, 199, 199);;
+        }
+
+        tr {
+            text-align: center;
+            font-size: 20px;
+            height: 70px;
+            overflow: auto;
+        }
+
+        tbody tr:nth-child(odd) {
+            background-color: #fafafa;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+    
+
+        .main {
+            width: 150px;
+            height: 60px;
+            font-size: 25px;
+            background-color: rgb(199, 199, 199);
+            color: black;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="main"></th>
+                <th class="main">Header1</th>
+                <th class="main">Header2</th>
+                <th class="main">Header3</th>
+                <th class="main">Header4</th>
+        </thead>
+   
+        <tbody>
+            <tr>
+                <td>Line1</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Line2</td>
+                <td>22</td>
+                <td>22</td>
+                <td>22</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Line3</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Line4</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td>Line5</td>
+                <td>37</td>
+                <td>37</td>
+                <td>37</td>
+                <td>37</td>
+            </tr>
+            <tr>
+                <td>Line6</td>
+                <td>6</td>
+                <td>6</td>
+                <td>6</td>
+                <td>6</td>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+
+</html>

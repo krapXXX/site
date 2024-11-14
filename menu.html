@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .block 
+    {
+        background-color: rgb(216, 216, 216);
+        height: 100px;
+        width: 100vw;
+        position: relative;
+        bottom: 10px;
+        right: 8px;
+        display: inline-block;
+    }
+    .mini_block 
+    {
+        background-color: rgb(246, 186, 118);
+        position: absolute;
+        height: 80px;
+        width: 320px;
+        margin-left: 130px;
+        margin-top: 20px;
+
+    }
+    .name 
+    {
+        padding-left: 20px;
+        padding-top: 15px;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline-block;
+        text-transform: uppercase;
+    }
+    .rest 
+    {
+        padding-left: 20px;
+        padding-top: 27px;
+        font-size: 20px;
+        position: absolute;
+        text-transform: capitalize;
+        display: inline-block;
+    }
+    hr 
+    {
+
+        border-left: 2px solid rgba(0, 0, 0, 0.187);
+        height: 50px;
+        width: 1px;
+        display: inline-block;
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 13px;
+
+    }
+    .home 
+    {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-top: 48px;
+        padding-left: 155px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .menu 
+    {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-top: 48px;
+        padding-left: 230px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .reservation 
+    {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-top: 48px;
+        padding-left: 320px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .blog 
+    {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-top: 48px;
+        padding-left: 405px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .contacts 
+    {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        padding-top: 48px;
+        padding-left: 480px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .inLine
+    { 
+        display: flex;
+        padding-top: 60px;
+    }
+    .block1
+    {
+       
+        height: 600px;
+        width: 350px;
+        margin-left: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .block2
+    {
+        height: 600px;
+        width: 350px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .block3
+    {
+        height: 600px;
+        width: 350px;
+        margin-left: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .img_size
+    {
+        width:350px; 
+        height:300px;
+    }
+    .block1_inside
+    {
+        background-color: rgb(200, 244, 182);
+        width:350px; 
+        height:300px;
+    }
+    .block2_inside
+    {
+        background-color: rgb(235, 199, 127);
+        width:350px; 
+        height:300px;
+    }
+    .block3_inside
+    {
+        background-color: rgb(231, 166, 131);
+        width:350px; 
+        height:300px;
+    }
+    .dish
+    {
+        text-align: center;
+        padding-top:60px;
+        font-size: 40px;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: underline dotted;
+    }
+    .dish1
+    {
+        text-align: center;
+        padding-top:50px;
+        font-size: 20px;
+    }
+
+</style>
+
+<body>
+
+    <div class="block ">
+        <div class="mini_block ">
+            <span class=" name">Bliss</span>
+            <hr><span class="rest">italian restaurant</span>
+        </div>
+        <span class="home">home</span>
+        <span class="menu">menu</span>
+        <span class="reservation">reservation</span>
+        <span class="blog">blog</span>
+        <span class="contacts">contacts</span>
+    </div>
+<div class ="inLine">
+    <div class ="block1 ">
+   <img src = "salad.jpg"class ="img_size">
+   <div class ="block1_inside">
+    <div class ="dish">
+        Vegetarian options
+    </div>
+    <div class ="dish1">
+         and more
+    </div>
+   </div>
+    </div>
+    <div class ="block2 ">
+        
+        <div class ="block2_inside">
+            <div class ="dish">
+                Menu
+            </div>
+            <div class ="dish1">
+                 <button style ="background-color: rgb(201, 156, 82); padding-right:40px; padding-left:40px; font-size:30px">here</button>
+            </div>
+        </div>
+        <img src = "pasta.jpg"class ="img_size">
+
+    </div>
+    <div class ="block3">
+        <img src = "fish.jpg"class ="img_size">
+
+        <div class ="block3_inside">
+            <div class ="dish">
+                Traditional cuisine
+            </div>
+            <div class ="dish1">
+                 and more
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
